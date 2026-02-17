@@ -35,4 +35,4 @@ This module enhances sale order lines by displaying real-time stock availability
 
 ## Support
 
-For support or questions, please contact the author.
+For support or questions, please contact me via whatsapp +218-91-6093309.
