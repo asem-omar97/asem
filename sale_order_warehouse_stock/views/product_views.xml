@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_product_form_inherit_warehouse_stock" model="ir.ui.view">
+        <field name="name">product.form.inherit.warehouse.stock</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Warehouse Stock" name="warehouse_stock" groups="stock.group_stock_user">
+                    <group>
+                        <field name="warehouse_stock_summary" widget="html" nolabel="1"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

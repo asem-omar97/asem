@@ -1,0 +1,7 @@
+.warehouse-stock-list {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+}
